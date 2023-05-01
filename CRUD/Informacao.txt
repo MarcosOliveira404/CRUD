@@ -30,7 +30,7 @@ Estilo css
 
 A fazer
     Ageita rolagem lateral - null
-    Revisão - 
+    Revisão - ok
 
 
 obs -> Este e uma copia do projeto origial, onde foi
