@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro</title>
+    <link rel="shortcut icon" href="../icon/erro.png" type="image/x-icon">
+    <link rel="stylesheet" href="impressora/style.css" media="print">
+                                                        <!-- "print, all e screen" -->
+    <style>
+        html{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.3em;
+            line-height: 1.3em;
+        }       
+
+        article::after{
+            content: 'Este artigo foi impresso de @marcosrikelmede';
+        }
+        body{
+            height: 98vh; /*View port*/
+            background-color: black;
+            color: rgb(255, 65, 65);
+            background-image: url('../img/imgerro.jpg');
+            background-position: center top;
+            background-repeat: no-repeat; /*repeat-x e repeat-y*/
+            background-size: cover; /*Cobrir 100 da tela com a imagen*/
+            background-attachment: fixed; /*scroll*/
+
+            /* shorthand - background
+               color > image > position > repeat > size > attachment
+            */
+
+        }
+        main{
+            background-color: rgba(0, 0, 0, 0.8);
+            max-width: 450px;
+            padding: 10px;
+            margin: auto;
+            margin-top: 20%;
+            border: 1.5px solid black;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        h1, p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>[Erro]</h1>
+        <p> Por favor retorne a pagina, e verifique seus dados</p>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizar</title>
+    <link rel="shortcut icon" href="../icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Chamando icon do formulario -->
+    <link rel="stylesheet" href="../css/style_Update.css"> <!-- Arquivo css-->
+    <link rel="stylesheet" href="../css/media_query_Update.css"> <!-- Arquivo css-->
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <!-- Foto da Logo -->
+            </div>
+            <div id="formulario">
+                <h1>-- Atualizar --</h1>
+                <p>Seja bem-vindo(a). Atualize as informações necessarias.
+                    <form action="msgErro.html" method="post" autocomplete="on">
+                        <div class="campo">
+                            <i class="material-icons">code</i>
+                            <input type="number" name="fid" placeholder="Indentificador" required>
+                            <label for="iid"></label> <br>
+                        </div>
+                        <div class="campo">
+                            <i class="material-icons">blind</i>
+                            <input type="text" name="fnome" id="inome" placeholder="Digite seu nome" maxlength="50" required>
+                            <label for="inome"></label>
+                        </div>
+
+                       <div class="campo"> <!-- Campo de e-mail -->
+                            <i class="material-icons">person</i>
+                            <input type="email" name="femail" id="ilogin" placeholder="Digite sua e-mail" autocomplete="email" required>
+                            <label for="ilogin"></label>
+                       </div> 
+
+                       <div class="campo"> <!-- Campo de senha -->
+                            <i class="material-icons">vpn_key</i>
+                            <input type="password" name="fsenha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" maxlength="20" required>
+                            <label for="isenha"></label>
+                        </div>
+
+                       <input type="submit" value="Atualizar"> <!-- Botao -->
+                    </form>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

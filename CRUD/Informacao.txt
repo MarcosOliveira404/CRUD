@@ -1,0 +1,38 @@
+
+Sistema PHP
+    Conecção - ok
+    Inserir - ok
+    Update - ok
+    Deletar - ok
+    Escrever - ok
+    Login - ok
+    Loginadm - ok
+
+Formulario HTML
+    Pagina inicial com as funções - 
+    Inserir - ok
+    Update - ok
+    Deletar - ok
+    Login - ok
+    Escrever - ok
+    Loginadm - ok
+    Erro - ok
+    true - ok
+
+Estilo css
+    Style - ok
+    Escolher tematicas - ok
+    css das paginas - ok
+    css escrer - ok
+    css adm - ok
+    Erro - ok
+    True - ok
+
+A fazer
+    Ageita rolagem lateral - null
+    Revisão - 
+
+
+obs -> Este e uma copia do projeto origial, onde foi
+       retirado algumas funções do sistema, o SQL, e 
+       os scripts PHP

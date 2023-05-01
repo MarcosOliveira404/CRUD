@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginADM</title>
+    <link rel="shortcut icon" href="../CRUD/icon/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- Chamando icon do formulario -->
+    <link rel="stylesheet" href="../CRUD/css/styleLoginadm.css"> <!-- Arquivo css-->
+    <link rel="stylesheet" href="../CRUD/css/media_query_loginadm.css"> <!-- Arquivo css-->
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <!-- Foto da Logo -->
+            </div>
+            <div id="formulario">
+                <h1>-- Login ADM --</h1>
+                <p>Seja bem-vindo(a). faça login para ter acesso ao conteudo ou cadastre-se.
+
+                    <form action="" method="post" autocomplete="on">
+
+                       <div class="campo"> <!-- Campo de e-mail -->
+                            <i class="material-icons">person</i>
+                            <input type="email" name="femail" id="ilogin" placeholder="E-mail do adm" autocomplete="email" required>
+                            <label for="ilogin"></label>
+                       </div> 
+
+                       <div class="campo"> <!-- Campo de senha -->
+                            <i class="material-icons">vpn_key</i>
+                            <input type="password" name="fsenha" id="isenha" placeholder="Senha do adm" autocomplete="current-password" maxlength="20" required>
+                            <label for="isenha"></label>
+                        </div>
+
+                       <a href="Paginas/index.html" class="botao">Entrar</a>
+                    </form>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
